@@ -21,4 +21,7 @@ function minus() {
 
     result = num1 - num2;
     document.getElementById('out').innerHTML = result;
+
+
+    
 }
