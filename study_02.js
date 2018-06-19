@@ -1,19 +1,7 @@
-var numbers = [ 1, 2, 3, 4, 5, 6];
+// Задача № 2
+const myArray = ["John", "Clark"];
 
-function square(value, index, array) {
-
-    return result = value * value;
-};
-
-var squareArray = numbers.map(square);
-console.log(squareArray);
-
-
-
-
-// const myArray = ["John", "Clark"];
-//
-// myArray.map(function(item) {
-//     console.log([item]);
-// });
-// // комитт
+item = myArray.map(function(item) {
+    return myArray;
+});
+console.log(item);
