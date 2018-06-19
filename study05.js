@@ -1,18 +1,7 @@
-const myArray = [
-    {
-        name: "John",
-        description: "John's description",
-    },
-
-    {
-        name: "Clark",
-        description: "Clark's description",
-    }
+var myArray = [
+    {name: "John", description: "John's description"},
+    {name: "Clark", description: "Clark's description"}
 ];
-function inject() {
-
-var inject = myArray[name];
-
-}
-// console.log(inject(myArray, [name]));
-console.log(inject);
+for(var i=0; i < myArray.length; i++)
+console.log(myArray[i].name);
+// console.log(inject);
