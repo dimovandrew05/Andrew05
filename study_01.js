@@ -4,5 +4,7 @@ var myArray = [
     {name: "Clark", description: "Clark's description"}
 ];
 for(var i=0; i < myArray.length; i++)
-console.log(myArray[i].name);
+
+    console.log(myArray[i].name);
+
 // console.log(inject);.
