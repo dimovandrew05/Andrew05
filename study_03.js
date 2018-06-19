@@ -8,11 +8,9 @@ const myArray = [{
     age: 22
 }];
 
-const filteredArray = myArray.filter (function(item) {
-    return item > 14;
-});
+const result = myArray.filter(myArray => myArray.age > 14);
 
-console.log(filteredArray);
+console.log(result);
 
 // Должно вывести:
 //     [{
@@ -20,3 +18,8 @@ console.log(filteredArray);
 //         description: "Clark's description",
 //         age: 22
 //     }]
+// var words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+//
+// const result = words.filter(word => word.length > 6);
+//
+// console.log(result);
