@@ -1,3 +1,4 @@
+// Задача № 3
 const myArray = [{
     name: "John",
     description: "John's description",
