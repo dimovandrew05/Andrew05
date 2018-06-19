@@ -1,3 +1,4 @@
+// Задача №1
 var myArray = [
     {name: "John", description: "John's description"},
     {name: "Clark", description: "Clark's description"}
