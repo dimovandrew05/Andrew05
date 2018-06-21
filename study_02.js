@@ -2,6 +2,6 @@
 const myArray = ["John", "Clark"];
 
 item = myArray.map(function(item) {
-    return myArray;
+    return item.toUpperCase();
 });
 console.log(item);
